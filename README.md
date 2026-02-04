@@ -2,64 +2,16 @@
 
 The table android-games.csv contains data on 1730 Android games, including their rankings, ratings, installs, price, and category. It can be used to analyze the popularity, growth, and user ratings of different games, as well as to compare the performance of paid and free games.
 
-1. Dataset Overview
+# Dataset Overview
 
 File name: The Highest-Rated Games on Google Play Store.csv
 Total rows (games): 1730
 Total columns: 15
 
-# **Dataset Information**
 
-**Dataset Name:** The Highest-Rated Games on Google Play Store
+Focus on enterprise size:
 
-**Source:** android games from play store
-
-**Source Link:** https://www.gigasheet.com/sample-data/android-gamescsv
-
-**Year/Timeline**:Jun 9, 2021.
-
-**Dataset Column Description:**
-
-**RANK :** serial number of rank list
-
-**TITLE :** titles of games from the list
-
-**Total Rating:** total nmbers of rating from the games
-
-**installs:** how many members of installs from the games
-
-**Average Rating :** over all perticular game rating from the average rating  
-
-**Growth(30 days):** games growth from the 30 days
-
-**Growth(60 days) :** games growth from the 60 days
-
-**Price:** price for the games
-
-**catagory:** catagory of games from the
-
-**5 star Rating:** 5 star rating from list of games
-
-**4Star Rating:** 4 star rating from list of games
-
-**3 Str rating:** 3 star rating from list of games
-
-**2 star rating:** 2 star rating from list of games
-
-**1Star rating:** 1 star rating from list of games
-
-**Paid :** paid list from the list of games
-
-
-**Dataset Size**
-
-* **Rows:** 1730
-
-* **Columns:** 15 features
-
-# **Note For Kind of Analysis to be done**
-
----
+Uses Google Colab Notebook and PySpark for data analysis
 
 
 
@@ -90,28 +42,122 @@ Identify game trend periods ahead)
 (growth analysis from the games
 ,30 days to 60 days how growth game ratings)
 
+Project Highlights
+Uses big-data processing with PySpark
 
-# Business Insight:
+Cloud-based execution using Google Colab
 
-•	Developers should focus on popular categories such as Action, Puzzle, Arcade, and Word, since these genres have higher demand and engagement.
+Visual analysis through charts and dashboards
 
-•	Maintaining high user satisfaction is important, so regular updates, bug fixes, and new features should be introduced to improve ratings.
+Clear storytelling using summarized insights
 
-•	User reviews and ratings should be continuously monitored to understand customer preferences and improve product quality.
+# Key Findings
+Digital adoption increases steadily over time
 
-•	Additionally, companies should use data analytics and visualization tools like Power BI to track performance metrics and make data-driven business decisions.
+Large enterprises lead in social media and online advertising usage
 
-•	Overall, these strategies can help increase user engagement, visibility, and long-term success in the mobile gaming market.
+Small and medium enterprises lag behind
 
-# Future Enhancement
+SMEs show uneven and slower digital growth
 
-Use a larger or more recent dataset for deeper insights
+Enterprise size has more impact than country differences
 
-Automate parts of the analysis with scripts or dashboards
+## vTools & Technologies Used
 
-Add advanced visualizations and interactive dashboards in Power BI or Tableau
+Google Colab Notebook
 
-Extend the analysis to predictive modeling for forecasting if needed
+PySpark
 
-# Final Conclusion
-This dataset provides a comprehensive view of the highest-rated mobile games on Google Play Store. It highlights that free-to-play action and arcade games dominate the market, with extremely high install counts and user engagement. Although top games receive millions of 5-star ratings, they also face significant negative reviews, showing the importance of continuous improvement. Overall, the dataset is highly valuable for understanding user behavior, market trends, and business strategies in the mobile gaming industry. 
+Python
+
+Libraries:
+
+pandas
+
+numpy
+
+matplotlib
+
+seaborn
+
+Dashboard Report (PDF)
+
+# Getting Started
+# Requirements
+Google Account
+
+Internet connection
+
+Google Colab environment
+
+No local installation required
+
+# Installation / Setup
+Open Google Colab
+
+Upload the notebook file:
+
+Social Media & Online Advertising in EU Enterprises.ipynb
+Enable PySpark in Colab environment
+
+Install any missing libraries inside the notebook if required
+
+!pip install pyspark
+
+How to Run the Project
+Open the notebook in Google Colab
+
+Connect to the runtime
+
+Run cells step-by-step from top to bottom
+
+Execute PySpark cells to process data
+
+View charts and results directly in the notebook
+
+Help & Troubleshooting
+Ensure runtime is connected in Colab
+
+Restart runtime if errors occur
+
+Re-run all cells after restarting
+
+Check PySpark installation if Spark session fails
+
+
+
+# Version History
+Version 0.2
+
+Improved analysis using PySpark
+
+Performance optimizations
+
+Version 0.1
+
+*Initial release
+
+# License
+MIT License
+
+See LICENSE.md file for details
+
+# Acknowledgments
+Google Colab
+
+PySpark Documentation
+
+awesome-readme
+
+PurpleBooth
+
+dbader
+
+zenorocha
+
+fvcproductions
+---
+
+
+
+
