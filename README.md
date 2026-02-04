@@ -42,7 +42,8 @@ Identify game trend periods ahead)
 (growth analysis from the games
 ,30 days to 60 days how growth game ratings)
 
-Project Highlights
+# Project Highlights
+
 Uses big-data processing with PySpark
 
 Cloud-based execution using Google Colab
